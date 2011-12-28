@@ -1,0 +1,14 @@
+# Fill in your AWS Access Key ID and Secret Access Key
+# http://aws.amazon.com/security-credentials
+
+development:
+  access_key_id: REPLACE_WITH_ACCESS_KEY_ID
+  secret_access_key: REPLACE_WITH_SECRET_ACCESS_KEY
+
+test:
+  access_key_id: REPLACE_WITH_ACCESS_KEY_ID
+  secret_access_key: REPLACE_WITH_SECRET_ACCESS_KEY
+
+production:
+  access_key_id: REPLACE_WITH_ACCESS_KEY_ID
+  secret_access_key: REPLACE_WITH_SECRET_ACCESS_KEY
