@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
+gem 'rake', '0.8.7'
+gem 'aws-sdk'
+gem 'authlogic', :git => 'git://github.com/bborn/authlogic.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -29,3 +32,11 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :test do
+  gem 'mocha'
+  gem 'rcov'
+  gem 'ruby-debug19'
+  gem 'test-unit', '< 2.3.0'
+  gem 'cover_me'
+end
